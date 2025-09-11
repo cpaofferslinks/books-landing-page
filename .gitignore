@@ -1,0 +1,9 @@
+*.DS_Store
+*.py
+*.json
+
+books_pages_generator.py
+itbooks_camoufox_scraper.py
+scraped_books_by_category.json
+scraped_books_complete.json
+scraping_summary.json

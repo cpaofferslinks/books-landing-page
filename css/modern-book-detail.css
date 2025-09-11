@@ -1,0 +1,336 @@
+/* Modern Book Detail CSS for Books4Everyone */
+
+/* Book Detail Section */
+.book-detail-section {
+    padding: 2rem 0;
+    background: #f8fafc;
+    min-height: 100vh;
+}
+
+.book-detail-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+/* Book Cover */
+.book-cover {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    border: 1px solid #e2e8f0;
+    text-align: center;
+    height: fit-content;
+    position: sticky;
+    top: 2rem;
+}
+
+.book-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    margin-bottom: 1.5rem;
+}
+
+.book-actions {
+    margin-top: 1.5rem;
+}
+
+/* Book Info */
+.book-info {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    border: 1px solid #e2e8f0;
+}
+
+.book-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.book-author {
+    font-size: 1.2rem;
+    color: #718096;
+    margin-bottom: 1rem;
+}
+
+.book-category {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+/* Book Description */
+.book-description {
+    margin-bottom: 2rem;
+}
+
+.book-description h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 1rem;
+}
+
+.book-description p {
+    color: #4a5568;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+/* Book Specifications */
+.book-specifications {
+    margin-bottom: 2rem;
+}
+
+.book-specifications h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+}
+
+.specs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.spec-item {
+    background: #f7fafc;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+.spec-item h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.spec-item p {
+    color: #2d3748;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* Table of Contents */
+.table-of-contents {
+    margin-bottom: 2rem;
+}
+
+.table-of-contents h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 1rem;
+}
+
+.toc-list {
+    background: #f7fafc;
+    border-radius: 8px;
+    padding: 1.5rem;
+    border: 1px solid #e2e8f0;
+}
+
+.toc-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e2e8f0;
+    color: #4a5568;
+    font-size: 0.95rem;
+}
+
+.toc-list li:last-child {
+    border-bottom: none;
+}
+
+.toc-list li:hover {
+    color: #667eea;
+    cursor: pointer;
+}
+
+/* Introduction */
+.book-introduction {
+    margin-bottom: 2rem;
+}
+
+.book-introduction h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 1rem;
+}
+
+.book-introduction p {
+    color: #4a5568;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* Download Section */
+.download-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.download-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.download-section p {
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+}
+
+/* Related Books */
+.related-books {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e2e8f0;
+}
+
+.related-books h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+}
+
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.related-book {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border: 1px solid #e2e8f0;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+.related-book:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: inherit;
+}
+
+.related-book img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.related-book h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 0.25rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.related-book p {
+    font-size: 0.8rem;
+    color: #718096;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+    .book-detail-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .book-cover {
+        position: static;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .book-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .book-detail-section {
+        padding: 1rem 0;
+    }
+    
+    .book-cover,
+    .book-info {
+        padding: 1.5rem;
+    }
+    
+    .book-title {
+        font-size: 1.8rem;
+    }
+    
+    .specs-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .related-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .book-cover,
+    .book-info {
+        padding: 1rem;
+    }
+    
+    .book-title {
+        font-size: 1.5rem;
+    }
+    
+    .book-author {
+        font-size: 1rem;
+    }
+    
+    .related-grid {
+        grid-template-columns: 1fr;
+    }
+}
